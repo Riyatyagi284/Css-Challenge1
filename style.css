@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EBEDF4;
+}
+
+.wrapper {
+    border-top: 12px solid #9d9a9a;
+}
+
+.container {
+    width: 84%;
+    margin: 2.4rem auto;
+}
+
+.container>img {
+    width: 8rem;
+    margin-bottom: 1rem;
+}
+
+.contactform-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    border: 1px solid #e1cece;
+}
+
+.contactform-left,
+.contactform-right {
+    width: 50%;
+}
+
+.contactform-right {
+    background: #677288 url(images/login-right-bg.jpg)center center no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.para1 {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 4rem;
+    color: #b5adad;
+    font-weight: 600;
+}
+
+h1 {
+    color: rgb(0, 137, 200);
+    font-size: 2.4rem;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 1rem;
+}
+
+h1>span {
+    color: #DA251D;
+}
+
+.para2 {
+    text-align: center;
+    color: #6b6060;
+    font-size: 1.3rem;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-input1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.form-input2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-input1>.icon,
+.form-input2>.icon {
+    border: 1px solid #d5d4d4;
+    padding: 0.4rem 0.7rem;
+    border-radius: 0.2rem;
+    border-right: none;
+    margin-right: -0.09rem;
+}
+
+.icon>a {
+    color: #d5d4d4;
+    font-size: 1.3rem;
+}
+
+input {
+    padding: 0.7rem 1rem;
+    width: 100%;
+    border: 1px solid #d5d4d4;
+    color: #d5d4d4;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.form-input {
+    width: 75%;
+    margin: auto;
+}
+
+.signin-btn {
+    font-size: 1rem;
+    display: inline-block;
+    width: 100%;
+    padding: 0.8rem 1rem;
+    /* margin: 1.6rem 6rem 0.4rem; */
+    background: #DA251D;
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: 0 1px 5px #D48582;
+}
+
+.forgot-help-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: gray;
+    font-style: italic;
+    font-size: 1.1rem;
+    margin-top: 1.2rem;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+
+.download-wrapper>p {
+    color: #aba6a6;
+    text-align: center;
+    margin-top: 2.7rem;
+    font-size: 1.1rem;
+    position: relative;
+}
+
+.download-wrapper>p::before,
+.download-wrapper>p::after {
+    content: "";
+    display: block;
+    width: 30%;
+    background: #ddd8d8;
+    height: 1px;
+    position: absolute;
+    top: 0.7rem;
+    left: 0;
+}
+
+.download-wrapper>p::after {
+    left: 16rem;
+}
+
+.last-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2.4rem;
+    margin-bottom: 4rem;
+    gap: 2rem;
+}
+.img-wrapper, .text-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+.qr-div>p,
+.direct-down-btn>p {
+    margin-top: 2rem;
+}
+
+.direct-down-btn>button {
+    color: red;
+    padding: 0.8rem 1.9rem;
+    background: transparent;
+    font-size: 1rem;
+    border: 1px solid red;
+}
+
+.text-wrapper>p{
+    color: #aba6a6;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.vision-div,
+.value-div {
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.top-vision>img,
+.value>img {
+    border: 1px solid #fff;
+    padding: 1rem 0.89rem;
+}
+
+.vision-div>h2,
+.value-div>h2 {
+    font-size: 1.8rem;
+}
+
+.right-para1 {
+    display: inline-block;
+    margin: 1.4rem 2.6rem;
+    line-height: 2rem;
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.line {
+    border-top: 1px solid #fff;
+    width: 60%;
+    margin: 1.4rem auto;
+}
+
+.live-superem-div,
+.respect-last-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    margin-top: 3rem;
+    margin-left: 4rem;
+    font-size: 1.1rem;
+}
+
+.live-superem-line {
+    content: "";
+    display: block;
+    width: 1px;
+    background: #ffff;
+    height: 2rem;
+}
+
+.right-para2 {
+    text-align: center;
+    margin-top: 0.6rem;
+    font-size: 1.1rem;
+}
+
+.respect-last-div {
+    margin-top: 1rem;
+}
